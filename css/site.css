@@ -1,0 +1,16 @@
+html, button, input, select, textarea {
+    font-family: sans-serif;
+    color: #FFF;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url("../assets/background-img.jpg");
+}
+
+html {
+    font-size: 100%;
+}

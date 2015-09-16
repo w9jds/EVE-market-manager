@@ -1,0 +1,184 @@
+.container {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#nav-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 54px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#nav-menu.sticky {
+    position: fixed;
+    top: 0;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.9);
+    z-index: 10;
+    border-bottom: 1px solid #333;
+    transform: translateZ(0px);
+}
+
+.current-item {
+    top: 0;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.9);
+    z-index: 10;
+    font-weight: bold;
+    text-align: center;
+    height: 30px;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.login-button {
+    float: right;
+    background-image: url("../assets/EVE-SSO-Login.png");
+    width: 270px;
+    height: 45px;
+    border: 0 none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+.region-selector, .language-selector {
+    vertical-align: middle;
+    position: absolute;
+    cursor: pointer;
+    top: 27%;
+}
+
+.language-selector {
+    float: right;
+    position: relative;
+    line-height: 3.5;
+}
+
+    .region-selector select, .language-selector select {
+        width: 200px;
+        color: black;
+        border-radius: 0px;
+        border: 0px none;
+        height: 25px;
+        font-size: 15px;
+    }
+
+.content-view {
+    margin-top: 65px;
+    height: 600px;
+}
+
+    .content-view table {
+        height: 100%;
+        width: 100%;
+    }
+
+    .content-view td {
+        background: rgba(0, 0, 0, 0.7);
+    }
+
+#marketGroups {
+    width: 25%;
+}
+
+    #marketGroups > ul {
+        margin: 0;
+        padding: 0 !important;
+        list-style: none;
+        height: 600px;
+        overflow-y: auto;
+    }
+
+    #marketGroups ul {
+        padding: 0px 0px 0px 15px;
+        line-style: none;
+    }
+
+    #marketGroups li {
+        list-style: none;
+    }
+
+.group-item {
+    width: 100%;
+}
+
+.group-item a {
+    display: block;
+    height: 35px;
+    color: #FFF;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 2.5;
+    padding: 0px 0px 0px 15px;
+    transition: background-color 0.5s ease 0s;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.group-item a:hover {
+    background: #17495D;
+}
+
+.group-row {
+    display: table-row;
+}
+
+.k-widget, .k-grid.k-widget {
+    background-color: transparent;
+    border: 0;
+}
+
+#data {
+    overflow-y: auto;
+    height: 600px;
+}
+
+    #data tbody > tr {
+        height: 30px !important;
+        transition: background-color 0.5s ease 0s;
+        font-size: 15px;
+    }
+
+    #data tbody td {
+        text-align: center;
+    }
+
+    #data tbody > tr:hover {
+        background: #17495d;
+    }
+
+.item-row {
+    padding: 20px;
+    transition: background-color 0.5s ease 0s;
+    cursor: pointer;
+    margin-bottom: 2px;
+    background: #1e1e1e;
+}
+
+.item-row:hover {
+    background: #17495d;
+}
+
+.float-left {
+    float: left;
+}
+
+.item-title {
+    height: 65px;
+    margin: 0 0 0 30px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 3.7;
+}
+
+.item-description {
+    clear: both;
+    font-size: 15px;
+    padding: 10px 30px 0px;
+}
